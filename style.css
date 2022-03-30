@@ -1,3 +1,15 @@
-{
-    text-align: center;
-}
+.sonic-container{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    /* forwards the animation remain in the state of the end */
+    animation: birdAnim 4s  infinite;
+  }
+  
+  .sonic-container img{
+    width: 100%;
+  }
+  .img{
+      
+  }
