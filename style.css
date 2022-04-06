@@ -1,18 +1,31 @@
-<<<<<<< HEAD
+
 .sonic-container{
     width: 120px;
     position: absolute;
     left: 10%;
-    top: 40%;
-    /* forwards the animation remain in the state of the end */
-    animation: birdAnim 4s  infinite;
+    top: 95%;
+    
+    
   }
   
   .sonic-container img{
     width: 100%;
   }
-  .img{
-      
-  }
-=======
->>>>>>> f3ca04e5f3259c09d07afb074af3ace7838a2952
+.img{
+  margin-right: 20px;
+
+} 
+
+.sonic-container2{
+  width: 120px;
+  position: absolute;
+  left: 10%;
+  top: 95%;
+  
+  
+}
+
+.sonic-container2 img{
+  width: 100%;
+}
+    
