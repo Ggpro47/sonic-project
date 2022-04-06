@@ -1,0 +1,9 @@
+body{
+    background: url(sonic-backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;;
+}
+.hfhf{
+    color: white;
+}
