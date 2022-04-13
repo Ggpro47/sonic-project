@@ -1,3 +1,7 @@
 body { 
       background-color: rgb(92, 238, 92);
 }
+
+.text-center { 
+      background: content-box;
+}
