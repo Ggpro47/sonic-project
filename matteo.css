@@ -5,5 +5,10 @@ body{
     min-height: 100vh;;
 }
 .hfhf{
-    color: white;
+    color: white
 }
+
+.link-secondary {
+    color: black
+}
+
