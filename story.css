@@ -1,16 +1,21 @@
 .text-center {
-    background-color: chartreuse;
-    color: blue;
     
+    color: red
     
-
-
 }
 body{
-    background-color: chartreuse;
+    background-color: greenyellow
 }
+.cane-dog {
+    color: blueviolet
+}
+
+
 .ciao{
     color: blue;
 }
 
 
+.button {
+    color: red
+}
