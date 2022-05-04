@@ -3,5 +3,39 @@ body {
 }
 
 .text-center { 
-      background: content-box;
+      color: red
+}
+
+.ciao-come {
+      color: blue
+}
+
+.come-stai {
+      color: blueviolet
+}
+
+.stai-come {
+      color: red;
+}
+.va-come {
+      color: blueviolet;
+}
+
+.d-f {
+      color: blueviolet;
+}
+.c-f {
+      color: blueviolet;
+}
+.p-f {
+      color: blueviolet;
+}
+.g-f {
+      color: blueviolet;
+}
+.h-f {
+      color: blueviolet;
+}
+.k-f {
+      color: blueviolet;
 }
