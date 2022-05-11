@@ -25,7 +25,7 @@ width: 100%;
 @keyframes jumpAnimation{
     50%{
         top: 40%; 
-        transform: scale(0.8,1) rotate(35deg);
+        transform: scale(0.8,1) rotate(100000000deg);
     }
     100%{
         top: 80%;

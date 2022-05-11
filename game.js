@@ -25,12 +25,13 @@ document.onkeydown = (e) => {
     }
 
     if (e.code == 'ArrowRight'){
-        if (left < 80){
+        if (left < 90){
             left = left + 2
             sonic.style.left = left + '%'    
         }
     }
     if (e.code == 'ArrowLeft'){
+        
         left = left - 2
         sonic.style.left = left + '%'    
     }
