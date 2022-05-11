@@ -10,7 +10,7 @@
     width: 120px;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 60%;
     transition: left .3s;
 }
   
@@ -29,6 +29,6 @@ width: 100%;
     }
     100%{
         top: 80%;
-        transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(360deg);
     }
 }
