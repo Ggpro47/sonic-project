@@ -1,0 +1,29 @@
+
+
+body{
+    background-image:url(level-2-bg.png);
+    background-size:cover;
+    min-height: 100vh;
+  }
+.sonic-container2{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 95%;
+    
+    
+  }
+  
+  .sonic-container2 img{
+    width: 100%;
+  }
+  @keyframes jumpAnimation{
+    50%{
+        top: 40%; 
+        transform: scale(0.8,1) rotate(35deg);
+    }
+    100%{
+        top: 80%;
+        transform: scale(1) rotate(0deg);
+    }
+}
