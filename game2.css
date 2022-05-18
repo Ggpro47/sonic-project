@@ -1,29 +1,36 @@
-
-
-body{
-    background-image:url(level-2-bg.png);
-    background-size:cover;
-    min-height: 100vh;
-  }
-.sonic-container2{
-    width: 120px;
-    position: absolute;
-    left: 10%;
-    top: 95%;
-    
-    
-  }
-  
-  .sonic-container2 img{
-    width: 100%;
-  }
-  @keyframes jumpAnimation{
-    50%{
-        top: 40%; 
-        transform: scale(0.8,1) rotate(35deg);
-    }
-    100%{
-        top: 80%;
-        transform: scale(1) rotate(0deg);
-    }
+.game-bg{
+  background-image:url(level-2-bg.png);
+  background-size:cover;
+  background-position: bottom;
+  min-height: 100vh;  
 }
+
+
+.sonic-container{
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transition: left .3s;
+}
+
+.sonic-container img{
+width: 100%;
+}
+
+.jump{
+  animation: jumpAnimation 2000ms forwards;
+}
+
+@keyframes jumpAnimation{
+  50%{
+      top: 30%; 
+      transform: scale(0.8,1) rotate(100000000deg);
+  }
+  100%{
+      top: 60%;
+      transform: scale(1) rotate(360deg);
+  }
+}
+
+
