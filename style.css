@@ -1,15 +1,17 @@
                        
 
 body{
-  background-image:url(Screen\ Shot\ 2022-05-04\ at\ 09.39.18.png);
+  background-image:url(level-2-bg.png);
   background-size:cover;
+  background-position: bottom;
   min-height: 100vh;
 }
 .sonic-container{
     width: 120px;
     position: absolute;
-    left: 10%;
-    top: 112%;
+    left: 50%;
+    top: 60%;
+    transition: left .3s;
     
     
   }
@@ -22,8 +24,8 @@ body{
 .sonic-container2{
   width: 120px;
   position: absolute;
-  left: 10%;
-  top: 95%;
+  left: 50%;
+  top: 60%;
   
   
 }
@@ -34,8 +36,9 @@ body{
 
 
 body{
-  background-image:url(IMG_4899.JPG);
+  background-image:url(level-3-bg.JPG);
   background-size:cover
+
   min-height: 100vh;
 }
 
@@ -50,7 +53,11 @@ body{
 
 .sonic-container3 img{
   width: 90%;
-}    
+} 
+
+
+
+
 
 
 
