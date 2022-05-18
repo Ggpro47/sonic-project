@@ -3,6 +3,9 @@ const sonic = document.querySelector('.sonic-container')
 let jumping = false
 let left = 50
 
+const obstacle = document.querySelector('.obstacle')
+
+
 
 //checking how javascript interact with the user
 
