@@ -4,6 +4,7 @@ let jumping = false
 let left = 50
 
 
+
 //checking how javascript interact with the user
 
 // 1 - l'uso della tastiera
@@ -11,7 +12,7 @@ document.onkeydown = (e) => {
     console.log('Keyboard pressed',e.code)   
 
     // if user click spacebar ....
-    if (e.code == 'Space' && jumping === false){
+    if (e.code == 'ArrowUp' && jumping === false){
         // add the class jump to sonic
         jumping = true
         console.log('Sonic jumping',jumping)
@@ -31,9 +32,11 @@ document.onkeydown = (e) => {
         }
     }
     if (e.code == 'ArrowLeft'){
-        
+       
         left = left - 2
-        sonic.style.left = left + '%'    
+        sonic.style.left = left + '%' 
+    
+           
     }
 
 }

@@ -11,7 +11,7 @@ document.onkeydown = (e) => {
     console.log('Keyboard pressed',e.code)   
 
     // if user click spacebar ....
-    if (e.code == 'Space' && jumping === false){
+    if (e.code == 'keyw' && jumping === false){
         // add the class jump to sonic
         jumping = true
         console.log('Sonic jumping',jumping)

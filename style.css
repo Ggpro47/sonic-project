@@ -18,7 +18,12 @@ body{
     width: 100%;
   }
 
-
+  body{
+    background-image:url(level-2-bg.png);
+    background-size:cover
+    min-height: 100vh;
+  }
+  
 .sonic-container2{
   width: 120px;
   position: absolute;
@@ -33,11 +38,6 @@ body{
 }
 
 
-body{
-  background-image:url(IMG_4899.JPG);
-  background-size:cover
-  min-height: 100vh;
-}
 
 .sonic-container3{
   width: 150px;
