@@ -36,23 +36,23 @@ width: 100%;
     width: 100px;
     position: absolute;
     left: 50%;
-    top: 50%;
-    animation: downAnimation 4s reverse; 
+    bottom: -50%;
 }
 .obstacle img{
     width: 100%;
 }
 
-.down{
+.dropping{
+    animation: downAnimation 4s ; 
 }
 @keyframes downAnimation{
 
     0%{
-        top: 100%;
+        bottom: 100%;
         transform: scale(0.8,1) rotate(360deg);
     }
     100%{
-        top: 0%;
+        bottom: -20%;
         transform: scale(1) rotate(-360deg);
     }
 
