@@ -93,4 +93,4 @@ function isCollide(a, b) {
 setTimeout(() => {
     alert("you won")
     location.href="game2.html"
-},4*1000)
+},60*1000)
