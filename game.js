@@ -50,7 +50,7 @@ let dropping1 = false
 let droppingEl1 = document.querySelector('.obstacle')
 setInterval( () => {
     
-    if (Math.random() < 0.4 && dropping1 === false){
+    if (Math.random() < 0.3 && dropping1 === false){
 
         // set random left
         droppingEl1.style.left = parseInt(Math.random() * 100) + "%"
@@ -90,7 +90,8 @@ function isCollide(a, b) {
 }
 
 
+
 setTimeout(() => {
     alert("you won")
     location.href="game2.html"
-},4*1000)
+},60*1000)

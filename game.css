@@ -2,7 +2,8 @@
     background-image:url(level-1-bg.png);
     background-size:cover;
     background-position: bottom;
-    min-height: 100vh;  
+    min-height: 100vh;
+    overflow: hidden;  
 }
 
 
