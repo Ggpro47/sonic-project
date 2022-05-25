@@ -1,23 +1,23 @@
-// Capire le varibili
+
 const sonic = document.querySelector('.sonic-container2')
 let jumping = false
 let left = 50
 
 
-//checking how javascript interact with the user
 
-// 1 - l'uso della tastiera
+
+
 document.onkeydown = (e) => {
     console.log('Keyboard pressed',e.code)   
 
-    // if user click spacebar ....
+    
     if (e.code == 'keyw' && jumping === false){
-        // add the class jump to sonic
+    
         jumping = true
         console.log('Sonic jumping',jumping)
         sonic.classList.add('jump')
 
-        //dopo x tempo rimuoviamo la classe
+        
         setTimeout( () => {
             jumping = false
             sonic.classList.remove('jump')
