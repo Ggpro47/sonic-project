@@ -76,5 +76,5 @@ function isCollide(a, b) {
 
 setTimeout(() => {
     alert("you won")
-    location.href="game2.html"
+    location.href="game3.html"
 },60*1000)
