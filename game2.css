@@ -1,21 +1,21 @@
-.game-bg{
- background-image:url(level-2-bg.png);
- background-size:cover;
+.game-bg2{
+ background-image:url(level-2-bg2.png);
+background-size: cover;
  background-position: bottom;
  min-height: 100vh;
  overflow: hidden;  
 }
 
 
-.sonic-container{
+.sonic-container2{
   width: 120px;
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 75%;
   transition: left .3s;
 }
 
-.sonic-container img{
+.sonic-container2 img{
 width: 100%;
 }
 

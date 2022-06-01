@@ -25,7 +25,7 @@ document.onkeydown = (e) => {
         setTimeout( () => {
             jumping = false
             sonic.classList.remove('jump')
-        }, 2000 )
+        }, 4000 )
     }
 
     if (e.code == 'ArrowRight'){
@@ -60,7 +60,7 @@ setInterval( () => {
         setTimeout(() => {
             dropping1 =false
             droppingEl1.classList.remove('dropping')
-        },4000)
+        },6000)
     }
 
 },500)

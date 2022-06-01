@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 // Capire le varibili
-const sonic = document.querySelector('.sonic-container')
-=======
-
 const sonic = document.querySelector('.sonic-container2')
->>>>>>> 5480858bbf884d2b3c23274429d6c5a90ef47832
 let jumping = false
 let left = 50
 
@@ -19,24 +14,18 @@ const obstacle = document.querySelector('.obstacle')
 document.onkeydown = (e) => {
     console.log('Keyboard pressed',e.code)   
 
-<<<<<<< HEAD
     // if user click spacebar ....
     if (e.code == 'Space' && jumping === false){
         // add the class jump to sonic
-=======
-    
-    if (e.code == 'keyw' && jumping === false){
-    
->>>>>>> 5480858bbf884d2b3c23274429d6c5a90ef47832
         jumping = true
         console.log('Sonic jumping',jumping)
         sonic.classList.add('jump')
 
-        
+        //dopo x tempo rimuoviamo la classe
         setTimeout( () => {
             jumping = false
             sonic.classList.remove('jump')
-        }, 2000 )
+        }, 4000 )
     }
 
     if (e.code == 'ArrowRight'){
@@ -71,10 +60,11 @@ setInterval( () => {
         setTimeout(() => {
             dropping1 =false
             droppingEl1.classList.remove('dropping')
-        },4000)
+        },6000)
     }
 
 },500)
+
 
 
 // collision detection
