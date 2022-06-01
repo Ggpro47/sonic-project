@@ -1,18 +1,20 @@
 
   
-  game-bg{
+  .game-bg3{
     background-image:url(level-3-bg.JPG);
     background-size:cover;
     background-position: bottom;
     min-height: 100vh;  
+    overflow: hidden; 
+    
 }
 
 
-.sonic-container{
-    width: 120px;
+.sonic-container3{
+    width: 10000px;
     position: absolute;
-    left: 50%;
-    top: 60%;
+    left: 10%;
+    top: 15%;
     transition: left .3s;
 }
   
@@ -35,3 +37,31 @@ width: 100%;
     }
 }
   
+
+.obstacle{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+  }
+  
+  .obstacle img{
+    width: 100%;
+  }
+  .dropping{
+    animation: downAnimation 4s ; 
+  }
+  @keyframes downAnimation{
+    0%{
+      bottom: 100%;
+      transform: scale(0.8,1) rotate(360deg);
+  }
+  100%{
+      bottom: -20%;
+      transform: scale(1) rotate(-360deg);
+  }
+  
+  
+  
+  
+  }
